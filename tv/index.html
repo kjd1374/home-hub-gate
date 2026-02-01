@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connecting to TV...</title>
+    <style>
+        body { background: #000; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; font-family: system-ui, sans-serif; margin: 0; }
+        .loader { width: 48px; height: 48px; border: 5px solid #FFF; border-bottom-color: transparent; border-radius: 50%; display: inline-block; box-sizing: border-box; animation: rotation 1s linear infinite; }
+        @keyframes rotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        p { margin-top: 20px; color: #888; }
+    </style>
+</head>
+<body>
+    <span class="loader"></span>
+    <p>Connecting to My TV...</p>
+    <script>
+        // Redirect to the dynamic tunnel URL + /tv
+        const TARGET_URL = "https://ocean-facility-differential-assumes.trycloudflare.com";
+        // Append /tv path
+        window.location.replace(TARGET_URL + "/tv");
+    </script>
+</body>
+</html>
