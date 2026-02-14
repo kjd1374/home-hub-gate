@@ -2,12 +2,1877 @@
 > home-hub@0.1.0 dev
 > next dev
 
-⚠ Port 3000 is in use by process 47677, using available port 3002 instead.
 ▲ Next.js 16.1.6 (Turbopack)
-- Local:         http://localhost:3002
-- Network:       http://192.168.0.67:3002
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.67:3000
 
 ✓ Starting...
-⨯ Unable to acquire lock at /Users/jungdookim/NAS/home-hub/.next/dev/lock, is another instance of next dev running?
-  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+✓ Ready in 372ms
+(node:18541) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100100000
+ GET /api/factory/rankings?category=100000100100000 200 in 931ms (compile: 444ms, render: 488ms)
+ GET /shorts-factory 200 in 300ms (compile: 246ms, render: 54ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100010000
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+⚠ Cross origin request detected from educational-jesus-engaging-correction.trycloudflare.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /api/factory/videos 200 in 31ms (compile: 8ms, render: 23ms)
+ GET /api/factory/status 200 in 31ms (compile: 18ms, render: 13ms)
+ GET /api/factory/rankings?category=100000100010000 200 in 505ms (compile: 13ms, render: 491ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 21ms (compile: 9ms, render: 12ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1300µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100090000
+ GET /api/factory/rankings?category=100000100090000 200 in 175ms (compile: 5ms, render: 170ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 22ms (compile: 8ms, render: 14ms)
+ GET /api/factory/videos 200 in 23ms (compile: 14ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 7ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100010000
+ GET /api/factory/rankings?category=100000100010000 200 in 170ms (compile: 1058µs, render: 169ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100110000
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 5ms (compile: 1102µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 3ms (compile: 690µs, render: 3ms)
+ GET /api/factory/rankings?category=100000100110000 200 in 185ms (compile: 6ms, render: 179ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 8ms, render: 10ms)
+ GET /api/factory/videos 200 in 19ms (compile: 14ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100020000
+ GET /api/factory/rankings?category=100000100020000 200 in 185ms (compile: 6ms, render: 178ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 7ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 5ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 7ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 13ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100040000
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1018µs, render: 4ms)
+ GET /api/factory/status 200 in 4ms (compile: 594µs, render: 4ms)
+ GET /api/factory/rankings?category=100000100040000 200 in 228ms (compile: 5ms, render: 222ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/rankings?category=100000100030000
+ GET /api/factory/rankings?category=100000100030000 200 in 187ms (compile: 6ms, render: 182ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 19ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 17ms (compile: 7ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 8ms (compile: 1593µs, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 7ms, render: 12ms)
+ GET /api/factory/videos 200 in 20ms (compile: 12ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 11ms (compile: 5ms, render: 6ms)
+ GET /api/factory/videos 200 in 11ms (compile: 8ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 15ms (compile: 5ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 8ms (compile: 1730µs, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 11ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 21ms (compile: 7ms, render: 14ms)
+ GET /api/factory/videos 200 in 21ms (compile: 12ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 8ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 11ms (compile: 5ms, render: 6ms)
+ GET /api/factory/videos 200 in 11ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 12ms (compile: 6ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 5ms (compile: 1268µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1921µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 22ms (compile: 7ms, render: 15ms)
+ GET /api/factory/status 200 in 23ms (compile: 12ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 16ms (compile: 7ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1565µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 17ms (compile: 8ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 8ms (compile: 4ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 11ms (compile: 4ms, render: 7ms)
+ GET /api/factory/videos 200 in 12ms (compile: 6ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 7ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 1983µs, render: 5ms)
+ GET /api/factory/status 200 in 8ms (compile: 5ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 2ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 16ms (compile: 1660µs, render: 14ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 9ms (compile: 3ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 5ms (compile: 1300µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 7ms, render: 11ms)
+ GET /api/factory/videos 200 in 20ms (compile: 13ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 2ms, render: 7ms)
+ GET /api/factory/status 200 in 10ms (compile: 4ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 11ms (compile: 5ms, render: 6ms)
+ GET /api/factory/status 200 in 11ms (compile: 8ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 8ms (compile: 2ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 9ms (compile: 3ms, render: 5ms)
+ GET /api/factory/videos 200 in 9ms (compile: 6ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 1953µs, render: 5ms)
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 4ms (compile: 765µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 9ms (compile: 2ms, render: 6ms)
+ GET /api/factory/status 200 in 9ms (compile: 4ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 8ms (compile: 1993µs, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 19ms (compile: 6ms, render: 13ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1699µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1793µs, render: 6ms)
+Failed to proxy http://127.0.0.1:8501/tv/_stcore/health Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Failed to proxy http://127.0.0.1:8501/tv/_stcore/host-config Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+ GET /_stcore/host-config 404 in 87ms (compile: 42ms, render: 45ms)
+ GET /_stcore/health 404 in 98ms (compile: 64ms, render: 34ms)
+Failed to proxy http://127.0.0.1:8501/tv/_stcore/health Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Failed to proxy http://127.0.0.1:8501/tv/_stcore/host-config Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+ GET /_stcore/host-config 404 in 37ms (compile: 3ms, render: 35ms)
+ GET /_stcore/health 404 in 16ms (compile: 1398µs, render: 14ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 12ms, render: 5ms)
+Failed to proxy http://127.0.0.1:8501/tv/_stcore/health Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Failed to proxy http://127.0.0.1:8501/tv/_stcore/host-config Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+Error: connect ECONNREFUSED 127.0.0.1:8501
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8501) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8501
+}
+ GET /_stcore/health 404 in 32ms (compile: 2ms, render: 30ms)
+ GET /_stcore/host-config 404 in 32ms (compile: 14ms, render: 18ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 7ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 1840µs, render: 3ms)
+ GET /api/factory/videos 200 in 5ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 22ms (compile: 8ms, render: 14ms)
+ GET /api/factory/status 200 in 26ms (compile: 15ms, render: 12ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 7ms, render: 12ms)
+ GET /api/factory/videos 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 2ms, render: 4ms)
+ GET /api/factory/status 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 1542µs, render: 4ms)
+ GET /api/factory/videos 200 in 6ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1608µs, render: 3ms)
+ GET /api/factory/status 200 in 5ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 1606µs, render: 3ms)
+ GET /api/factory/videos 200 in 5ms (compile: 3ms, render: 1941µs)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1578µs, render: 3ms)
+ GET /api/factory/status 200 in 5ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 7ms, render: 9ms)
+ GET /api/factory/videos 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 8ms)
+ GET /api/factory/status 200 in 17ms (compile: 13ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 7ms, render: 12ms)
+ GET /api/factory/videos 200 in 19ms (compile: 13ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 1766µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 8ms (compile: 2ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 20ms (compile: 10ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1682µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 16ms (compile: 9ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 12ms (compile: 1150µs, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 20ms (compile: 6ms, render: 14ms)
+ GET /api/factory/videos 200 in 20ms (compile: 10ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/status 200 in 11ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 2ms, render: 4ms)
+ GET /api/factory/status 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 7ms)
+ GET /api/factory/videos 200 in 13ms (compile: 10ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 19ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 21ms (compile: 12ms, render: 9ms)
+ GET /api/factory/videos 200 in 21ms (compile: 16ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/videos 200 in 14ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1624µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 20ms (compile: 12ms, render: 9ms)
+ GET /api/factory/videos 200 in 20ms (compile: 16ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 18ms (compile: 13ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 8ms, render: 11ms)
+ GET /api/factory/status 200 in 19ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 18ms (compile: 9ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 12ms (compile: 6ms, render: 7ms)
+ GET /api/factory/status 200 in 12ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 9ms, render: 8ms)
+ GET /api/factory/status 200 in 17ms (compile: 13ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 9ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 20ms (compile: 6ms, render: 14ms)
+ GET /api/factory/videos 200 in 21ms (compile: 11ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 17ms (compile: 7ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 5ms (compile: 1459µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 19ms (compile: 13ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 12ms (compile: 6ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 2ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1665µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 5ms, render: 9ms)
+ GET /api/factory/videos 200 in 16ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 13ms (compile: 6ms, render: 8ms)
+ GET /api/factory/status 200 in 13ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 12ms (compile: 6ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 5ms (compile: 1164µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 19ms (compile: 11ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 19ms (compile: 10ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/status 200 in 11ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 7ms, render: 8ms)
+ GET /api/factory/status 200 in 17ms (compile: 13ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 7ms, render: 6ms)
+ GET /api/factory/videos 200 in 13ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 6ms, render: 7ms)
+ GET /api/factory/videos 200 in 13ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/videos 200 in 14ms (compile: 10ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 21ms (compile: 7ms, render: 14ms)
+ GET /api/factory/videos 200 in 21ms (compile: 12ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 4ms (compile: 879µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 12ms (compile: 5ms, render: 7ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 8ms (compile: 3ms, render: 5ms)
+ GET /api/factory/status 200 in 8ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 8ms)
+ GET /api/factory/videos 200 in 14ms (compile: 9ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 9ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 12ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/status 200 in 11ms (compile: 6ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1567µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 21ms (compile: 11ms, render: 10ms)
+ GET /api/factory/videos 200 in 21ms (compile: 16ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 9ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 5ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 9ms (compile: 4ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 8ms (compile: 1855µs, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 6ms, render: 13ms)
+ GET /api/factory/videos 200 in 19ms (compile: 10ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 12ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 17ms (compile: 7ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1878µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 18ms (compile: 13ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 5ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1752µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1195µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 20ms (compile: 11ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 2ms, render: 3ms)
+ GET /api/factory/status 200 in 7ms (compile: 4ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 8ms, render: 11ms)
+ GET /api/factory/status 200 in 19ms (compile: 13ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 19ms (compile: 11ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 9ms (compile: 4ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 7ms, render: 9ms)
+ GET /api/factory/videos 200 in 17ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 6ms, render: 13ms)
+ GET /api/factory/status 200 in 19ms (compile: 10ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 13ms (compile: 6ms, render: 7ms)
+ GET /api/factory/videos 200 in 13ms (compile: 10ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 5ms)
+ GET /api/factory/status 200 in 8ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 8ms)
+ GET /api/factory/status 200 in 14ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 9ms, render: 11ms)
+ GET /api/factory/videos 200 in 20ms (compile: 14ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 7ms, render: 11ms)
+ GET /api/factory/videos 200 in 20ms (compile: 13ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1809µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1647µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 13ms (compile: 5ms, render: 8ms)
+ GET /api/factory/status 200 in 13ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1636µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 6ms, render: 13ms)
+ GET /api/factory/status 200 in 20ms (compile: 10ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 13ms)
+ GET /api/factory/status 200 in 18ms (compile: 8ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 18ms (compile: 7ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1825µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/status 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 8ms, render: 9ms)
+ GET /api/factory/videos 200 in 17ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 3ms, render: 7ms)
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 8ms, render: 7ms)
+ GET /api/factory/status 200 in 14ms (compile: 10ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 7ms, render: 12ms)
+ GET /api/factory/status 200 in 21ms (compile: 13ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 8ms (compile: 2ms, render: 5ms)
+ GET /api/factory/videos 200 in 10ms (compile: 5ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 8ms, render: 10ms)
+ GET /api/factory/videos 200 in 19ms (compile: 14ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 20ms (compile: 11ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 5ms, render: 12ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 5ms, render: 12ms)
+ GET /api/factory/status 200 in 17ms (compile: 9ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 4ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 8ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 13ms (compile: 5ms, render: 8ms)
+ GET /api/factory/status 200 in 13ms (compile: 8ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 7ms, render: 7ms)
+ GET /api/factory/videos 200 in 14ms (compile: 11ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 21ms (compile: 7ms, render: 14ms)
+ GET /api/factory/videos 200 in 21ms (compile: 12ms, render: 10ms)
+ Proxying POST request to: http://127.0.0.1:8000/api/run
+ POST /api/factory/run 200 in 16ms (compile: 5ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 6ms (compile: 1745µs, render: 4ms)
+ GET /api/factory/videos 200 in 6ms (compile: 3ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 8ms (compile: 3ms, render: 5ms)
+ GET /api/factory/videos 200 in 9ms (compile: 5ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 5ms, render: 7ms)
+ GET /api/factory/videos 200 in 12ms (compile: 8ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 3ms, render: 4ms)
+ GET /api/factory/videos 200 in 8ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 6ms, render: 6ms)
+ GET /api/factory/videos 200 in 12ms (compile: 8ms, render: 3ms)
+ GET /shorts-factory/config 200 in 54ms (compile: 28ms, render: 26ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/config
+ GET /api/factory/config 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /shorts-factory 200 in 22ms (compile: 3ms, render: 19ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 3ms, render: 3ms)
+ GET /api/factory/videos 200 in 7ms (compile: 1706µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 18ms (compile: 8ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1647µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 3ms (compile: 669µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 6ms (compile: 1829µs, render: 4ms)
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 8ms (compile: 1816µs, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1740µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ GET /api/factory/videos 200 in 15ms (compile: 8ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 1647µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 7ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 12ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 16ms (compile: 5ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1504µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 5ms (compile: 945µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 19ms (compile: 8ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1515µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 19ms (compile: 11ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 18ms (compile: 7ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 2ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/status 200 in 14ms (compile: 9ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 13ms (compile: 6ms, render: 6ms)
+ GET /api/factory/videos 200 in 14ms (compile: 10ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 12ms (compile: 7ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 4ms (compile: 1275µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 7ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 20ms (compile: 6ms, render: 14ms)
+ GET /api/factory/videos 200 in 20ms (compile: 11ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 2ms, render: 4ms)
+ GET /api/factory/status 200 in 7ms (compile: 4ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 5ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 21ms (compile: 11ms, render: 10ms)
+ GET / 200 in 54ms (compile: 14ms, render: 40ms)
+ GET /api/files?path=%2F 200 in 35ms (compile: 28ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 11ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 7ms, render: 11ms)
+ GET /api/factory/videos 200 in 20ms (compile: 11ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ GET /api/files?path=%2Fshorts_output 200 in 4ms (compile: 1291µs, render: 3ms)
+ GET /api/files?path=%2Fshorts_output%2FOliveYoung 200 in 7ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 1290µs, render: 5ms)
+ GET /api/files?path=%2Fshorts_output%2FOliveYoung%2FSkincare 200 in 3ms (compile: 1162µs, render: 1855µs)
+ GET /api/files?path=%2Fshorts_output%2FOliveYoung%2FSkincare%2F2026-02-08 200 in 5ms (compile: 2ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 7ms, render: 13ms)
+ GET /api/factory/videos 200 in 19ms (compile: 12ms, render: 7ms)
+ GET /api/files?path=%2Fshorts_output%2FOliveYoung%2FSkincare%2F2026-02-08%2F1_4%EB%85%84%EC%97%B0%EC%86%8D1%EC%9C%84%20%EC%96%B4%EB%85%B8%EB%B8%8C%20%EB%94%A5%20%EB%8D%B0%EB%AF%B8%EC%A7%80%20%ED%97%A4%EC%96%B4%20%ED%8A%B8%EB%A6%AC%ED%8A%B8%EB%A8%BC%ED%8A%B8%20EX%20320ml%20%EB%8D%94%EB%B8%94%EB%93%80%EC%98%A4%20%EA%B8%B0%ED%9A%8D 200 in 9ms (compile: 3ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1441µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 11ms (compile: 4ms, render: 7ms)
+ GET /api/factory/status 200 in 12ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 8ms (compile: 4ms, render: 4ms)
+ GET /api/factory/videos 200 in 9ms (compile: 6ms, render: 3ms)
+ GET /api/files?path=%2F 200 in 7ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 8ms (compile: 3ms, render: 5ms)
+ GET /api/factory/videos 200 in 9ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 9ms (compile: 3ms, render: 6ms)
+ GET /api/factory/videos 200 in 8ms (compile: 4ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 5ms, render: 12ms)
+ GET /api/factory/videos 200 in 18ms (compile: 9ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1338µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 6ms (compile: 1923µs, render: 4ms)
+ GET /api/factory/videos 200 in 6ms (compile: 4ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 8ms (compile: 3ms, render: 4ms)
+ GET /api/factory/videos 200 in 9ms (compile: 5ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 7ms, render: 8ms)
+ GET /api/factory/status 200 in 15ms (compile: 11ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/status 200 in 11ms (compile: 7ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 10ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1820µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 6ms (compile: 2ms, render: 3ms)
+ GET /api/factory/videos 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 5ms, render: 12ms)
+ GET /api/factory/status 200 in 18ms (compile: 9ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 9ms (compile: 3ms, render: 5ms)
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 20ms (compile: 5ms, render: 14ms)
+ GET /api/factory/videos 200 in 20ms (compile: 10ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 16ms (compile: 9ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1419µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/videos 200 in 18ms (compile: 12ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 9ms (compile: 5ms, render: 4ms)
+ GET /api/factory/status 200 in 10ms (compile: 6ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 14ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 2ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1812µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 8ms, render: 8ms)
+ GET /api/factory/videos 200 in 15ms (compile: 11ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 11ms (compile: 4ms, render: 7ms)
+ GET /api/factory/videos 200 in 12ms (compile: 8ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 2ms, render: 4ms)
+ GET /api/factory/status 200 in 7ms (compile: 4ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 5ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 9ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 4ms)
+ GET /api/factory/status 200 in 8ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 8ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 14ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 4ms (compile: 1739µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 2ms (compile: 508µs, render: 1875µs)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 6ms)
+ GET /api/factory/videos 200 in 10ms (compile: 7ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1922µs, render: 3ms)
+ GET /api/factory/status 200 in 6ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 9ms, render: 7ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 1940µs, render: 4ms)
+ GET /api/factory/videos 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 5ms, render: 7ms)
+ GET /api/factory/videos 200 in 12ms (compile: 8ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 9ms, render: 10ms)
+ GET /api/factory/videos 200 in 19ms (compile: 14ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 9ms (compile: 4ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 5ms (compile: 1187µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 19ms (compile: 6ms, render: 13ms)
+ GET /api/factory/videos 200 in 19ms (compile: 10ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 17ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 21ms (compile: 10ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 9ms (compile: 3ms, render: 6ms)
+ GET /api/factory/videos 200 in 9ms (compile: 6ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 4ms, render: 8ms)
+ GET /api/factory/videos 200 in 13ms (compile: 8ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 13ms (compile: 7ms, render: 7ms)
+ GET /api/factory/status 200 in 13ms (compile: 10ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 9ms (compile: 3ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1290µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 22ms (compile: 5ms, render: 16ms)
+ GET /api/factory/videos 200 in 22ms (compile: 11ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 2ms, render: 5ms)
+ GET /api/factory/status 200 in 8ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 11ms (compile: 5ms, render: 6ms)
+ GET /api/factory/status 200 in 11ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 19ms (compile: 7ms, render: 13ms)
+ GET /api/factory/status 200 in 20ms (compile: 13ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 8ms, render: 9ms)
+ GET /api/factory/status 200 in 17ms (compile: 12ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1746µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 11ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 2ms, render: 5ms)
+ GET /api/factory/status 200 in 8ms (compile: 4ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 8ms, render: 9ms)
+ GET /api/factory/status 200 in 17ms (compile: 13ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1549µs, render: 3ms)
+ GET /api/factory/status 200 in 5ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 4ms (compile: 1450µs, render: 3ms)
+ GET /api/factory/videos 200 in 5ms (compile: 3ms, render: 1875µs)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 2ms, render: 3ms)
+ GET /api/factory/videos 200 in 6ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 4ms (compile: 1600µs, render: 3ms)
+ GET /api/factory/videos 200 in 5ms (compile: 3ms, render: 1884µs)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 4ms, render: 14ms)
+ GET /api/factory/videos 200 in 20ms (compile: 7ms, render: 12ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 4ms (compile: 1568µs, render: 3ms)
+ GET /api/factory/videos 200 in 5ms (compile: 3ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1585µs, render: 3ms)
+ GET /api/factory/status 200 in 5ms (compile: 3ms, render: 1830µs)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 1674µs, render: 3ms)
+ GET /api/factory/videos 200 in 5ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 4ms (compile: 1670µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 3ms (compile: 627µs, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 4ms (compile: 1602µs, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 3ms (compile: 712µs, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 9ms (compile: 5ms, render: 5ms)
+ GET /api/factory/videos 200 in 5ms (compile: 859µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 5ms (compile: 1533µs, render: 3ms)
+ GET /api/factory/videos 200 in 6ms (compile: 3ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 1910µs, render: 5ms)
+ GET /api/factory/videos 200 in 7ms (compile: 4ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 6ms (compile: 2ms, render: 3ms)
+ GET /api/factory/videos 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 5ms (compile: 1503µs, render: 3ms)
+ GET /api/factory/status 200 in 5ms (compile: 3ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 5ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 8ms)
+ GET /shorts-factory 200 in 59ms (compile: 3ms, render: 56ms)
+ GET / 200 in 24ms (compile: 2ms, render: 22ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 1848µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 5ms)
+ GET /api/factory/status 200 in 9ms (compile: 5ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 11ms (compile: 3ms, render: 8ms)
+ GET /api/factory/videos 200 in 11ms (compile: 8ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 8ms (compile: 3ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 4ms (compile: 831µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 1978µs, render: 15ms)
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 1820µs, render: 6ms)
+ GET /api/factory/videos 200 in 5ms (compile: 678µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 3ms, render: 4ms)
+ GET /api/factory/videos 200 in 7ms (compile: 5ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 1658µs, render: 5ms)
+ GET /api/factory/videos 200 in 8ms (compile: 4ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 9ms (compile: 3ms, render: 6ms)
+ GET /api/factory/videos 200 in 9ms (compile: 6ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 7ms (compile: 2ms, render: 4ms)
+ GET /api/factory/status 200 in 7ms (compile: 5ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 1554µs, render: 4ms)
+ GET /api/factory/status 200 in 7ms (compile: 3ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ GET /api/factory/videos 200 in 13ms (compile: 8ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/videos 200 in 5ms (compile: 1157µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 10ms (compile: 3ms, render: 8ms)
+ GET /api/factory/videos 200 in 11ms (compile: 6ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 16ms (compile: 4ms, render: 12ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 15ms (compile: 2ms, render: 12ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 16ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 17ms (compile: 10ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 2ms, render: 4ms)
+ GET /api/factory/status 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 5ms, render: 10ms)
+ GET /api/factory/videos 200 in 16ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 6ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 11ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/videos 200 in 10ms (compile: 7ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 7ms, render: 10ms)
+ GET /api/factory/videos 200 in 20ms (compile: 11ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/videos 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 5ms, render: 10ms)
+ GET /api/factory/videos 200 in 15ms (compile: 10ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 6ms (compile: 1630µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 1992µs, render: 4ms)
+ GET /api/factory/status 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 9ms (compile: 4ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/videos 200 in 10ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 6ms, render: 12ms)
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 5ms, render: 13ms)
+ GET /api/factory/videos 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 20ms (compile: 6ms, render: 15ms)
+ GET /api/factory/status 200 in 20ms (compile: 16ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 4ms (compile: 1830µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 4ms (compile: 582µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 10ms)
+ GET /api/factory/status 200 in 15ms (compile: 11ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/status 200 in 18ms (compile: 11ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 10ms (compile: 5ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 3ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 3ms (compile: 732µs, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 11ms (compile: 4ms, render: 7ms)
+ GET /api/factory/status 200 in 13ms (compile: 6ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 17ms (compile: 5ms, render: 11ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 6ms (compile: 1294µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 8ms (compile: 3ms, render: 5ms)
+ GET /api/factory/status 200 in 8ms (compile: 5ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 18ms (compile: 11ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 4ms (compile: 1505µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 3ms (compile: 1344µs, render: 1877µs)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 6ms (compile: 1984µs, render: 4ms)
+ GET /api/factory/status 200 in 6ms (compile: 4ms, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 15ms (compile: 8ms, render: 7ms)
+ GET /api/factory/videos 200 in 14ms (compile: 11ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/factory/videos 200 in 17ms (compile: 13ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 18ms (compile: 10ms, render: 8ms)
+ GET /api/factory/videos 200 in 18ms (compile: 13ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 3ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 8ms (compile: 2ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 5ms, render: 9ms)
+ GET /api/factory/status 200 in 15ms (compile: 9ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 7ms (compile: 1913µs, render: 6ms)
+ GET /api/factory/videos 200 in 8ms (compile: 4ms, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/status 200 in 10ms (compile: 6ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 12ms (compile: 4ms, render: 8ms)
+ GET /api/factory/videos 200 in 12ms (compile: 9ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/status 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/factory/videos 200 in 11ms (compile: 7ms, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 13ms (compile: 6ms, render: 7ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 5ms (compile: 1316µs, render: 4ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/factory/status 200 in 15ms (compile: 10ms, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 18ms (compile: 7ms, render: 12ms)
+ GET /api/factory/status 200 in 19ms (compile: 13ms, render: 6ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 3ms (compile: 650µs, render: 2ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 15ms (compile: 6ms, render: 9ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 7ms (compile: 1558µs, render: 5ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/videos 200 in 16ms (compile: 5ms, render: 10ms)
+ GET /api/factory/status 200 in 18ms (compile: 10ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 4ms (compile: 952µs, render: 3ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/status
+ GET /api/factory/status 200 in 13ms (compile: 5ms, render: 8ms)
+ Proxying GET request to: http://127.0.0.1:8000/api/videos
+ GET /api/factory/videos 200 in 7ms (compile: 1687µs, render: 5ms)
 [?25h

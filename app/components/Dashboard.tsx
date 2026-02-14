@@ -389,6 +389,45 @@ export default function Dashboard() {
                     </div>
                 </div>
 
+                {/* Navigation ShortCuts */}
+                <div className="space-y-4">
+                    <h3 className="text-xs font-bold text-gray-500 uppercase tracking-widest px-1">Services</h3>
+                    <div className="space-y-2">
+                        <a
+                            href="/tv/"
+                            className="flex items-center gap-3 px-4 py-3 bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all rounded-xl border border-white/5 shadow-lg shadow-black/20"
+                        >
+                            <Video size={18} className="text-red-400" />
+                            <span className="text-sm font-bold">My TV</span>
+                            <ChevronRight size={14} className="ml-auto opacity-50" />
+                        </a>
+                        <a
+                            href="/shorts-factory/"
+                            className="flex items-center gap-3 px-4 py-3 bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all rounded-xl border border-white/5 shadow-lg shadow-black/20"
+                        >
+                            <Server size={18} className="text-blue-400" />
+                            <span className="text-sm font-bold">Shorts Factory</span>
+                            <ChevronRight size={14} className="ml-auto opacity-50" />
+                        </a>
+                        <a
+                            href="/diet-coach"
+                            className="flex items-center gap-3 px-4 py-3 bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all rounded-xl border border-white/5 shadow-lg shadow-black/20"
+                        >
+                            <Activity size={18} className="text-emerald-400" />
+                            <span className="text-sm font-bold">Diet Coach</span>
+                            <ChevronRight size={14} className="ml-auto opacity-50" />
+                        </a>
+                        <a
+                            href="/resume-builder"
+                            className="flex items-center gap-3 px-4 py-3 bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all rounded-xl border border-white/5 shadow-lg shadow-black/20"
+                        >
+                            <FileText size={18} className="text-violet-400" />
+                            <span className="text-sm font-bold">Resume Checker AI</span>
+                            <ChevronRight size={14} className="ml-auto opacity-50" />
+                        </a>
+                    </div>
+                </div>
+
                 <div className="mt-auto">
                     <div className="glass-panel p-4 rounded-xl flex items-center gap-3 cursor-pointer hover:bg-white/5 transition-colors">
                         <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
